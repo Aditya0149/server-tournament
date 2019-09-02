@@ -1,0 +1,25 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Sitaram Mulik",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "bootstrap": "^3.3.7",
+    "express": "^4.14.0",
+    "jade": "^1.11.0",
+    "jquery": "^3.1.1",
+    "jsonfile": "^2.4.0",
+    "mongoose": "^5.2.4"
+  },
+  "devDependencies": {
+    "cors": "^2.8.4",
+    "yamljs": "^0.3.0"
+  }
+}
